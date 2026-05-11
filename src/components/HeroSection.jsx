@@ -1,11 +1,11 @@
 import { navLinks } from '../data/siteData'
-import logoLight from '../assets/logo_real.png'
+import logoLight from '../assets/snoop logo white.png'
 
 function HeroSection() {
   return (
     <main id="home" className="hero-panel">
       <header className="topbar">
-        <img className="brand-logo" src={logoLight} alt="Snoop Creative Lab" />
+        <img onClick={() => window.location.href = '/'} className="brand-logo" src={logoLight} alt="Snoop Creative Lab" />
         <nav className="nav-pills" aria-label="Main">
           {navLinks.map((item) => (
             <a key={item.href} href={item.href}>
