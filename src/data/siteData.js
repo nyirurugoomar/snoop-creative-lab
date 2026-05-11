@@ -31,21 +31,44 @@ export const stats = [
 
 export const services = [
   {
-    title: 'Branding & Identity',
-    text: 'Logo systems, brand kits, naming and strategy that position your business clearly.',
+    title: 'Social Media Management',
+    icon: '📱',
+    text: 'Strategy, posting, and account growth support across your social platforms.',
   },
   {
-    title: 'Digital Marketing',
-    text: 'Social media management and campaign content that increases reach and conversion.',
+    title: 'Content Creation',
+    icon: '✍️',
+    text: 'Creative copy, campaign content, and media assets tailored to your audience.',
   },
   {
     title: 'Graphic Design',
-    text: 'Flyers, posters and ad creatives that are clean, strong, and on-brand.',
+    icon: '🎨',
+    text: 'Flyers, posters, and ad creatives that stay clean, bold, and on-brand.',
   },
   {
-    title: 'Web Design & UI/UX',
-    text: 'Responsive websites and user interfaces built for trust and action.',
+    title: 'Photography & Videography',
+    icon: '📸',
+    text: 'Professional photo and video production for campaigns, products, and events.',
   },
+  {
+    title: 'Website Design & Updates',
+    icon: '💻',
+    text: 'Modern website design, refreshes, and ongoing updates for better performance.',
+  },
+  {
+    title: 'Branding & Marketing Materials',
+    icon: '🚀',
+    text: 'Brand identity systems and marketing materials that build recognition and trust.',
+  },
+]
+
+export const whyChoosePoints = [
+  'Modern and creative visual identity',
+  'Consistent digital branding',
+  'Fast communication',
+  'Professional content production',
+  'Combined design and web expertise',
+  'Youth-focused creative direction',
 ]
 
 export const works = [

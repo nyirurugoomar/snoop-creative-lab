@@ -5,6 +5,7 @@ import HeroSection from './components/HeroSection'
 import MarqueeStrip from './components/MarqueeStrip'
 import PortfolioSection from './components/PortfolioSection'
 import ServicesSection from './components/ServicesSection'
+import WhyChooseSection from './components/WhyChooseSection'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <HeroSection />
       <AboutSection />
       <ServicesSection />
+      <WhyChooseSection />
       <PortfolioSection />
       <MarqueeStrip />
       <ContactSection />

@@ -17,13 +17,11 @@ function ServicesSection() {
         {services.map((service, index) => (
           <article key={service.title} className={`service-card ${index === 0 ? 'featured' : ''}`}>
             <span className="service-icon" aria-hidden="true">
-              {service.title.charAt(0)}
+              {service.icon}
             </span>
             <h3>{service.title}</h3>
             <p>{service.text}</p>
-            <a href="#contact" className="service-link">
-              Learn more
-            </a>
+            
           </article>
         ))}
       </div>

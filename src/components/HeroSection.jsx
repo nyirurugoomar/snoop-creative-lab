@@ -26,11 +26,13 @@ function HeroSection() {
           BRAND STORIES
         </h1>
         <p className="hero-subtext">
-          We help businesses grow with branding, social media creatives, and high-converting web
-          visuals.
+        We help brands, schools, and businesses grow through creative design, social media management, content creation, and modern websites.
         </p>
         <a href="#contact" className="btn btn-primary">
-          Let&apos;s Create <span>↗</span>
+        Book Consultation<span>↗</span>
+        </a>
+        <a href="#work" className="btn btn-primary">
+        View Our Work<span>💼</span>
         </a>
         <div className="hero-swatches" aria-hidden="true">
           <span className="sw sw1"></span>

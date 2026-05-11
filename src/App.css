@@ -317,6 +317,40 @@
   font-weight: 600;
 }
 
+.why-grid {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.9rem;
+}
+
+.why-card {
+  border: 1px solid #282828;
+  border-radius: 14px;
+  padding: 0.95rem;
+  background: #121212;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.65rem;
+}
+
+.why-icon {
+  width: 1.45rem;
+  height: 1.45rem;
+  border-radius: 999px;
+  background: #e9f3fe;
+  color: #2083f1;
+  font-weight: 700;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+
+.why-card p {
+  margin: 0;
+  color: #d6d6d6;
+}
+
 .stats,
 .grid {
   display: grid;
@@ -491,6 +525,7 @@
 
   .stats,
   .services-grid,
+  .why-grid,
   .portfolio-grid,
   .cards,
   .projects {
