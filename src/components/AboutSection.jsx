@@ -7,7 +7,7 @@ function AboutSection() {
       <SectionTitle
         label="About Us"
         title="We create clear, memorable brands that move people to act."
-        text="Snoop Creative Lab combines strategy, design, and marketing to turn business goals into visible growth."
+        text="Impano Digital Lab combines strategy, design, and marketing to turn business goals into visible growth."
       />
       <div className="stats">
         {stats.map((item) => (

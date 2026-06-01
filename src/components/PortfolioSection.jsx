@@ -6,7 +6,7 @@ function PortfolioSection() {
     <section id="work" className="portfolio section-shell">
       <SectionTitle
         label="Portfolio Highlights"
-        title="Selected work by Snoop Creative Lab"
+        title="Selected work by Impano Digital Lab"
       />
       <div className="portfolio-grid">
         {works.map((work, index) => (

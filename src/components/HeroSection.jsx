@@ -1,5 +1,5 @@
 import { navLinks } from '../data/siteData'
-import logoLight from '../assets/snoop logo white.png'
+import logoLight from '../assets/impano digital lab white.png'
 
 function HeroSection() {
   return (
@@ -40,7 +40,7 @@ function HeroSection() {
           <span className="sw sw3"></span>
           <span className="sw sw4"></span>
         </div>
-        <p className="hero-year">SNOOP CREATIVE LAB</p>
+        <p className="hero-year">IMPANO DIGITAL LAB</p>
         <div className="hero-note">
           <strong>2,200+</strong>
           <p>design projects delivered with measurable impact.</p>

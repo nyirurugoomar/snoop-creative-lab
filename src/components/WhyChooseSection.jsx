@@ -6,7 +6,7 @@ function WhyChooseSection() {
     <section id="why-choose-us" className="why-choose section-shell">
       <SectionTitle
         label="Why Choose Us"
-        title="Why Choose Snoop Creative Lab"
+        title="Why Choose Impano Digital Lab"
       />
       <div className="why-grid">
         {whyChoosePoints.map((point) => (
