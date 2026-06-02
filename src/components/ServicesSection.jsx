@@ -17,7 +17,8 @@ function ServicesSection() {
         {services.map((service, index) => (
           <article key={service.title} className={`service-card ${index === 0 ? 'featured' : ''}`}>
             <span className="service-icon" aria-hidden="true">
-              {service.icon}
+              <img src={service.icon} alt={service.title} width={20} height={20} />
+  
             </span>
             <h3>{service.title}</h3>
             <p>{service.text}</p>

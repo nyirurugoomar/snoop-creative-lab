@@ -6,6 +6,12 @@ import phizer from '../assets/portfolio/phizer.png'
 import privateCar from '../assets/portfolio/private-car.png'
 import truk from '../assets/portfolio/truk.png'
 import fastnet from '../assets/portfolio/fastnet.png'
+import socialMediaManagement from '../assets/icons/socialmediamanagement.png'
+import contentCreation from '../assets/icons/contentcreation.png'
+import graphicDesign from '../assets/icons/graphicdesign.png'
+import photography from '../assets/icons/photographic.png'
+import website from '../assets/icons/website.png'
+import branding from '../assets/icons/branding.png'
 
 export const navLinks = [
   { href: '#home', label: 'Home' },
@@ -32,32 +38,32 @@ export const stats = [
 export const services = [
   {
     title: 'Social Media Management',
-    icon: '📱',
+    icon: socialMediaManagement,
     text: 'Strategy, posting, and account growth support across your social platforms.',
   },
   {
     title: 'Content Creation',
-    icon: '✍️',
+    icon: contentCreation,
     text: 'Creative copy, campaign content, and media assets tailored to your audience.',
   },
   {
     title: 'Graphic Design',
-    icon: '🎨',
+    icon: graphicDesign,
     text: 'Flyers, posters, and ad creatives that stay clean, bold, and on-brand.',
   },
   {
     title: 'Photography & Videography',
-    icon: '📸',
+    icon: photography,
     text: 'Professional photo and video production for campaigns, products, and events.',
   },
   {
     title: 'Website Design & Updates',
-    icon: '💻',
+    icon: website,
     text: 'Modern website design, refreshes, and ongoing updates for better performance.',
   },
   {
     title: 'Branding & Marketing Materials',
-    icon: '🚀',
+    icon: branding,
     text: 'Brand identity systems and marketing materials that build recognition and trust.',
   },
 ]
